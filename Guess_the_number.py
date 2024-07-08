@@ -9,8 +9,8 @@ Bienvenido al juego de adivina el número.
 Adivina un número de 1 a 5.
 """)
 
-numero_usuario = int(input("Elije el número (de 1 a 5): "))
-numero_maquina = random.randint(1, 5)
+numero_usuario = int(input("Elije el número (de 1 a 3): "))
+numero_maquina = random.randint(1, 3)
 print(numero_maquina)
 
 if numero_usuario == numero_maquina:
