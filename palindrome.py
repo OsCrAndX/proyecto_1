@@ -16,7 +16,7 @@ palabra_2.reverse()
 palabra_2 = "".join(palabra_2)
 
 if palabra_usuario == palabra_2:
-    print("La palabra es palíndroma. ¡Felicitaciones!")
+    print("La palabra es palíndroma. ¡Felicitaciones! Muy bien.")
 else:
     print("La palabra no es palíndroma")
 
